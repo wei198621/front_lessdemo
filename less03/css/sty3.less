@@ -1,0 +1,37 @@
+/*
+mixin 
+公共css代码块
+
+*/
+
+@bgcolor:yellow;
+@w:300px;
+@h:200px;
+@mt10:10px;
+@pt10:10px;
+@border:1px;
+
+/*
+将公共样式写在.box 这个class 
+需要的时候调用就可以了
+这是无参的mixin 
+*/
+	
+.box{
+	margin: @mt10;
+	padding: @pt10;
+	border: @border;
+}
+
+header{
+	.box;
+	font-size: 20px;
+}
+section{
+	.box;
+	font-size: 30px;
+}
+footer{
+	.box;
+	font-size: 40px;
+}

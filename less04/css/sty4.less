@@ -1,0 +1,25 @@
+
+/*
+带参数的mixin 
+*/
+.box(@mt10,@pt10,@border,@color){
+	margin: @mt10;
+	padding: @pt10;
+	border: @border;
+	color: @color;
+	border-style:solid;
+	border-width:5px;
+}
+
+header{
+	.box(20px,20px,1px,red);
+	font-size: 40px;
+}
+section{
+	.box(30px,30px,2px,green);
+	font-size: 30px;
+}
+footer{
+	.box(40px,40px,3px,deeppink);
+	font-size: 20px;
+}

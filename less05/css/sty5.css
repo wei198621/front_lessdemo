@@ -1,0 +1,18 @@
+/*
+:nth-of-type() 选择器，
+该选择器选取父元素的第 N 个指定类型的子元素
+1. N 计数从1开始
+2. 表兄弟也是兄弟
+*/
+/*
+& 表示当前元素
+*/
+ul li:nth-child(1) {
+  color: red;
+}
+ul li:nth-child(2) {
+  color: green;
+}
+ul li:nth-child(3) {
+  color: blue;
+}

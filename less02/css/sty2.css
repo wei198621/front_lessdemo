@@ -1,0 +1,19 @@
+/*
+less 中的注释 会 传递到 css 中 
+*/
+/*
+@是声明变量的关键字
+ 语法 @bgcolor: red
+ 
+ css语法在less中都支持
+ 
+*/
+ul li {
+  background-color: #008000;
+}
+#box p {
+  background-color: #008000;
+  width: 200px;
+  height: 100px;
+  margin-top: 10px;
+}
